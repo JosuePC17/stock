@@ -43,6 +43,10 @@ ol, ul {
 	box-shadow: 0 6px 4px -4px #A4A4A4;
 	margin: 0;
 	padding: 0;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color:#fff;
 }
 
 .header h1{
