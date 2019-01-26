@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu');
+
+body {	
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Ubuntu', sans-serif;
+	color:#222831;
+}
+
+ol, ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;	
+}
+
+#txtBuscar {
+	border-style: solid;
+	border-color:#E6E6E6;
+	border-radius: 18px;
+	border-width: 8px;
+	background-color:#E6E6E6;
+	background-image:url('iconos/icono-buscar.png');
+	background-repeat:no-repeat;
+	background-size:15px;	
+	background-position:left;	
+	width: 600px;
+	height: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #878787;
+	padding-left:30px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;		
+	box-shadow: 0 6px 4px -4px #A4A4A4;
+	margin: 0;
+	padding: 0;
+}
+
+.header h1{
+	padding: 0 0 0 10px;
+}
+
+.header nav{
+	padding: 0 10px 0 0;
+	/*height: inherit;*/
+}
+
+.header nav ol{
+	display: flex;
+	/*height: inherit;*/
+}
+
+.header nav ol li{
+	/*height: inherit;*/
+}
+
+.header nav ol li a{
+	display: flex;
+	align-items: center;
+	height: 30px;
+	text-decoration: none;
+	padding: 0 10px;
+	font-size: 13px;
+	color: #393e46;	
+}
+
+.header nav ol .btnSubirFoto{		
+	border-style: solid;	
+	border-color: #dbdbdb;
+	border-width: 0.5px;
+}
+
+.header nav ol .btnRegistro{
+	background-color: #c6e377;
+	border-radius: 5px;			
+	color: #000;
+}
+
+.galeria{
+	display: flex;	
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 20px;	
+}
+
+.marco{
+	border-style: none;		
+}
+
+.marco figure
+{
+	padding: 0;
+	margin: 5px;	
+}
+
+.marco figure img{
+	width: 350px;	
+}
